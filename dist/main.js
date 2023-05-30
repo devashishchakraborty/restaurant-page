@@ -1,0 +1,1 @@
+(()=>{const e=document.createElement("header");document.querySelector("#content"),e.textContent="Garuda Vegetarian Restaurant"})();
