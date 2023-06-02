@@ -3,5 +3,23 @@ body{
 }
 
 header{
-    
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.title{
+    display: flex;
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+    background-color: #5d2196;
+    color: wheat;
 }
