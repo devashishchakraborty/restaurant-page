@@ -1,25 +1,30 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header{
     display: flex;
     flex-direction: column;
-    background-color: blueviolet;
+    background-color: #4bff4b;
 }
 
 .title{
     display: flex;
-    color: white;
-    height: 50px;
+    /* color: white; */
+    height: 80px;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 nav{
     display: flex;
-    gap: 16px;
-    background-color: #5d2196;
-    color: wheat;
+    gap: 32px;
+    background-color: #00a100;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
 }
