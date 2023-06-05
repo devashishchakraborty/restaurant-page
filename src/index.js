@@ -1,5 +1,9 @@
+import { displayHome } from "./home";
+
 const header = document.createElement("header");
 const content = document.querySelector("#content");
+
+const main = document.createElement("main");
 
 const title = document.createElement("div");
 title.setAttribute("class", "title");
@@ -25,7 +29,10 @@ navbar.appendChild(homeTab);
 navbar.appendChild(menuTab);
 navbar.appendChild(contactTab);
 
-content.appendChild(header);
-
 header.appendChild(title);
 header.appendChild(navbar);
+
+content.appendChild(header);
+content.appendChild(main);
+
+displayHome(main);
