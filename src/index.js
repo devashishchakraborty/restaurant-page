@@ -1,4 +1,6 @@
 import { displayHome } from "./home";
+import { displayMenu } from "./menu";
+import { displayContact } from "./contact";
 
 const header = document.createElement("header");
 const content = document.querySelector("#content");
@@ -35,4 +37,7 @@ header.appendChild(navbar);
 content.appendChild(header);
 content.appendChild(main);
 
-displayHome(main);
+
+homeTab.addEventListener("click", () => displayHome(main));
+menuTab.addEventListener("click", () => displayMenu(main));
+contactTab.addEventListener("click", () => displayContact(main));
