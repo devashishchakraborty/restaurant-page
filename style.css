@@ -27,4 +27,9 @@ nav{
     height: 40px;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+}
+
+nav div:hover {
+    cursor: pointer;
 }
