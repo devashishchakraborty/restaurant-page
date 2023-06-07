@@ -37,7 +37,19 @@ header.appendChild(navbar);
 content.appendChild(header);
 content.appendChild(main);
 
+displayHome(main);
 
-homeTab.addEventListener("click", () => displayHome(main));
-menuTab.addEventListener("click", () => displayMenu(main));
-contactTab.addEventListener("click", () => displayContact(main));
+homeTab.addEventListener("click", function(){
+    main.textContent = "";
+    displayHome(main);
+});
+
+menuTab.addEventListener("click", function(){
+    main.textContent = "";
+    displayMenu(main);
+});
+
+contactTab.addEventListener("click", function(){
+    main.textContent = "";
+    displayContact(main);
+});
