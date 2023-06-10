@@ -6,10 +6,6 @@ body{
     display: flex;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('background.avif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header{
@@ -70,4 +66,8 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
