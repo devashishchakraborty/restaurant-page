@@ -27,7 +27,6 @@ contactTab.textContent = "CONTACT";
 
 const myBackground = new Image();
 myBackground.src = Background;
-content.appendChild(myBackground);
 
 
 navbar.appendChild(homeTab);
